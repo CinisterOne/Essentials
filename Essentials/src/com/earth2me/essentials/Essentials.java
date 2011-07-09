@@ -30,7 +30,6 @@ import com.earth2me.essentials.register.payment.Methods;
 import java.math.BigInteger;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-import org.bukkit.craftbukkit.entity.CraftPlayer;
 import org.bukkit.craftbukkit.scheduler.CraftScheduler;
 import org.bukkit.entity.Player;
 import org.bukkit.event.Event.Priority;
@@ -43,7 +42,7 @@ import org.bukkit.plugin.java.*;
 public class Essentials extends JavaPlugin implements IEssentials
 {
 	public static final String AUTHORS = "Zenexer, ementalo, Aelux, Brettflan, KimKandor, snowleo, ceulemans and Xeology";
-	public static final int minBukkitBuildVersion = 953;
+	public static final int minBukkitBuildVersion = 974;
 	private static final Logger logger = Logger.getLogger("Minecraft");
 	private Settings settings;
 	private EssentialsPlayerListener playerListener;
